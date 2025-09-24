@@ -1,0 +1,12 @@
+Comments: 
+- App listens on PORT env var (default 8080).
+- Endpoints:
+  - GET /foo -> bar
+  - POST /hello with JSON body {"name": "Prabh"} -> Hello Prabh!
+  - GET /kill -> exits container
+- Test commands:
+  - curl localhost:8080/
+  - curl localhost:8080/foo
+  - curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST --data '{"name": "Prabh"}' localhost:8080/hello
+  - curl localhost:8080/kill
+  
