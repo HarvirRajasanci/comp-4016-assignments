@@ -15,12 +15,12 @@ This is a Node.js/Express.js application designed for Kubernetes deployment with
 
 ### 1. Build Docker Image
 ```bash
-docker build -t harvir/assignment2-app:latest .
+docker build -t harvirr/assignment2-app:latest .
 ```
 
 ### 2. Push to DockerHub
 ```bash
-docker push harvir/assignment2-app:latest
+docker push harvirr/assignment2-app:latest
 ```
 
 ### 3. Deploy to Kubernetes
