@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: assignment2-app
-  namespace: harvir
+  namespace: harvirr
   labels:
     app: assignment2-app
 spec:

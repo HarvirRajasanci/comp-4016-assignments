@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: assignment2-service
-  namespace: harvir
+  namespace: harvirr
 spec:
   type: NodePort
   selector:
